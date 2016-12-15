@@ -897,8 +897,8 @@ input[type="cancel"] {
 }
 .post .entry-image img {
 	display:block;
-	width:100%;
-	height:auto;
+	margin: auto;
+	max-height: 200px;
 	
 }
 .post .entry-content {
@@ -1034,21 +1034,11 @@ input[type="cancel"] {
 	08. Prefooter
    ==================================================== */
 #prefooter {
-	padding:32px 0;
-	padding:2rem 0;
 	background:#f3f3f3;
 	color:#999;
 	border-top:4px solid #333;
 }
 
-@media (min-width: 768px) {
-
-	#prefooter {
-		padding:64px 0;
-		padding:4rem 0;
-	}
-
-}
 
 
 
